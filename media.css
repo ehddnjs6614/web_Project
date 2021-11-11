@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+/* 미디어쿼리 pc */
+@media (max-width: 1200px) {
+  .box div {
+    width: 50%;
+    max-width: 800px;
+    margin-top: 50px;
+  }
+}
+/* 미디어쿼리 모바일 */
+@media (max-width: 768px) {
+  .box div {
+    width: 100%;
+  }
+}
